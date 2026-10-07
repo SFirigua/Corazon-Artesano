@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo colectivo — Corazón Artesano</title>
+  <meta name="description" content="Compra directa a las artesanas de Mompox: palma de iraca, filigrana, tejidos, bisutería y gastronomía.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body data-nav="catalogo.html">
+  <header id="site-nav"></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container ph-inner">
+        <nav class="breadcrumbs" aria-label="Ruta de navegación">
+          <a href="index.html">Inicio</a><span class="sep">/</span><span class="current">Catálogo</span>
+        </nav>
+        <span class="eyebrow">Vitrina digital</span>
+        <h1>Catálogo colectivo</h1>
+        <p>128 piezas hechas a mano por 75 artesanas de Santa Cruz de Mompox. Cada compra llega completa a la artesana que elaboró el producto.</p>
+        <div class="ph-stats">
+          <div class="ph-stat"><strong id="ph-productos">128</strong> productos publicados</div>
+          <div class="ph-stat"><strong id="ph-artesanas">75</strong> artesanas</div>
+          <div class="ph-stat"><strong>100 %</strong> venta directa</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="container">
+        <div class="catalog-toolbar">
+          <div class="search-box">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <input type="search" id="buscar" placeholder="Buscar por producto, artesana o material…" aria-label="Buscar productos">
+          </div>
+          <label class="sr-only" for="ordenar">Ordenar por</label>
+          <select id="ordenar" aria-label="Ordenar productos">
+            <option value="relevancia">Ordenar: relevancia</option>
+            <option value="precio-asc">Precio: menor a mayor</option>
+            <option value="precio-desc">Precio: mayor a menor</option>
+            <option value="recientes">Más recientes</option>
+            <option value="vendidos">Más vendidos</option>
+          </select>
+          <button type="button" class="btn btn-outline" id="limpiar">Limpiar</button>
+        </div>
+
+        <div class="chips-row" id="chips">
+          <button type="button" class="chip active" data-cat="todas">Todas</button>
+          <button type="button" class="chip" data-cat="palma">Palma de iraca</button>
+          <button type="button" class="chip" data-cat="filigrana">Filigrana</button>
+          <button type="button" class="chip" data-cat="tejidos">Tejidos</button>
+          <button type="button" class="chip" data-cat="bisuteria">Bisutería</button>
+          <button type="button" class="chip" data-cat="gastronomia">Gastronomía</button>
+        </div>
+
+        <div class="results-info">
+          <span id="contador">—</span>
+          <span class="tag-direct"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-9 0-15 4-15 11a5 5 0 0 0 5 5c7 0 10-6 10-16z"/><path d="M4 20c3-6 7-9 12-11"/></svg> Compra directa a la artesana</span>
+        </div>
+
+        <div class="grid-products" id="grid"></div>
+        <div id="vacio"></div>
+        <div class="load-more-wrap" id="mas-wrap" style="display:none">
+          <button type="button" class="btn btn-outline btn-lg" id="mas">Cargar más productos</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/catalogo.js"></script>
+</body>
+</html>

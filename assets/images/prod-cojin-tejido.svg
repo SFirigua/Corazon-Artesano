@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Cojín tejido a mano">
+  <rect width="400" height="400" fill="#F6EBE0"/>
+  <circle cx="200" cy="200" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#A15C3E" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="322" rx="104" ry="13" fill="#A15C3E" opacity=".12"/>
+  <g stroke="#B98A2E" stroke-width="2.4" stroke-linecap="round">
+    <path d="M126 168 l-14 -10 M126 172 l-16 -2"/>
+    <path d="M126 232 l-14 10 M126 228 l-16 2"/>
+    <path d="M274 168 l14 -10 M274 172 l16 -2"/>
+    <path d="M274 232 l14 10 M274 228 l16 2"/>
+  </g>
+  <g fill="#DDB65E" stroke="#B98A2E" stroke-width="1.4">
+    <circle cx="112" cy="158" r="6"/><circle cx="110" cy="170" r="6"/>
+    <circle cx="110" cy="230" r="6"/><circle cx="112" cy="242" r="6"/>
+    <circle cx="288" cy="158" r="6"/><circle cx="290" cy="170" r="6"/>
+    <circle cx="290" cy="230" r="6"/><circle cx="288" cy="242" r="6"/>
+  </g>
+  <rect x="126" y="138" width="148" height="124" rx="16" fill="#F3E8D2" stroke="#B98A2E" stroke-width="2.4"/>
+  <g>
+    <rect x="126" y="156" width="148" height="14" fill="#A15C3E"/>
+    <rect x="126" y="182" width="148" height="8" fill="#2F6B4F"/>
+    <rect x="126" y="202" width="148" height="14" fill="#C89B3C"/>
+    <rect x="126" y="228" width="148" height="8" fill="#A15C3E"/>
+  </g>
+  <rect x="126" y="138" width="148" height="124" rx="16" fill="none" stroke="#8A5A2B" stroke-width="1.4" opacity=".5"/>
+  <path d="M158 138 q42 -20 84 0" fill="none" stroke="#C89B3C" stroke-width="2" opacity=".7" stroke-linecap="round"/>
+</svg>

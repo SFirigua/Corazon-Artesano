@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Florero decorativo en palma de iraca">
+  <defs>
+    <pattern id="wv" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#DDB86E"/>
+      <path d="M0 7h14M7 0v14" stroke="#C49A4E" stroke-width="2.4" stroke-opacity=".6"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="#EDF3E8"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#2F6B4F" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="326" rx="98" ry="14" fill="#2F6B4F" opacity=".1"/>
+  <path d="M152 190 h96 l-14 122 q-1 12 -13 12 h-42 q-12 0 -13 -12 z" fill="url(#wv)" stroke="#B98A2E" stroke-width="2"/>
+  <path d="M248 190 l-12 134 h19 q12 0 13 -12 Z" fill="#142440" opacity=".07"/>
+  <rect x="144" y="178" width="112" height="22" rx="11" fill="#B98A2E"/>
+  <rect x="144" y="178" width="112" height="9" rx="4.5" fill="#D9B36C"/>
+  <path d="M166 220 h68 M162 252 h76 M166 284 h68" stroke="#B98A2E" stroke-width="3.4" opacity=".55"/>
+  <g>
+    <path d="M200 172 q-4 -52 -34 -66" fill="none" stroke="#2F6B4F" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200 172 q2 -46 30 -62" fill="none" stroke="#25543E" stroke-width="4" stroke-linecap="round"/>
+    <path d="M200 172 q0 -60 0 -78" fill="none" stroke="#2F6B4F" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="164" cy="102" r="11" fill="#C89B3C"/>
+    <circle cx="232" cy="106" r="11" fill="#B5533C"/>
+    <circle cx="200" cy="90" r="12" fill="#DDB65E"/>
+    <circle cx="164" cy="102" r="4" fill="#8A5A2B"/>
+    <circle cx="232" cy="106" r="4" fill="#8A5A2B"/>
+    <circle cx="200" cy="90" r="4" fill="#8A5A2B"/>
+  </g>
+</svg>

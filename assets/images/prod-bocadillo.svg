@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Bocadillo momposino envuelto">
+  <rect width="400" height="400" fill="#FAEFE7"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#B5533C" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="300" rx="132" ry="14" fill="#B5533C" opacity=".12"/>
+  <g>
+    <path d="M92 190 l28 -18 v18 z" fill="#F3E8D2" stroke="#D9C49A" stroke-width="1.4"/>
+    <path d="M92 190 l28 18 v-18 z" fill="#F3E8D2" stroke="#D9C49A" stroke-width="1.4"/>
+    <path d="M308 190 l-28 -18 v18 z" fill="#F3E8D2" stroke="#D9C49A" stroke-width="1.4"/>
+    <path d="M308 190 l-28 18 v-18 z" fill="#F3E8D2" stroke="#D9C49A" stroke-width="1.4"/>
+    <rect x="118" y="152" width="164" height="76" rx="12" fill="#7B3F2A" stroke="#5E2E1E" stroke-width="2"/>
+    <rect x="118" y="152" width="164" height="26" rx="12" fill="#8F4A31"/>
+    <rect x="118" y="166" width="164" height="12" fill="#8F4A31"/>
+    <rect x="146" y="170" width="108" height="42" rx="8" fill="#F3E8D2" stroke="#D9C49A" stroke-width="1.5"/>
+    <path d="M156 182 h88 M156 192 h64" stroke="#8A5A2B" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    <circle cx="200" cy="205" r="5" fill="#B5533C"/>
+    <path d="M84 214 q116 24 232 0" fill="none" stroke="#B98A2E" stroke-width="2" opacity=".55" stroke-dasharray="6 6"/>
+  </g>
+  <g>
+    <path d="M140 252 q30 -12 60 0 q30 12 60 0 l0 22 q-30 12 -60 0 q-30 -12 -60 0 z" fill="#7B3F2A" opacity=".9"/>
+    <path d="M146 258 q28 -10 54 0" fill="none" stroke="#8F4A31" stroke-width="2"/>
+  </g>
+  <g stroke="#7B3F2A" stroke-width="2.4" stroke-linecap="round">
+    <path d="M230 132 v14 M262 132 v14"/>
+  </g>
+  <circle cx="252" cy="126" r="7" fill="#B5533C"/>
+  <circle cx="240" cy="128" r="5" fill="#C89B3C"/>
+</svg>

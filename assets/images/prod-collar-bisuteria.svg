@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Collar artesanal en mostacillas">
+  <rect width="400" height="400" fill="#F3EDF6"/>
+  <circle cx="200" cy="200" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#7A5C8C" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="330" rx="92" ry="13" fill="#7A5C8C" opacity=".12"/>
+  <path d="M116 130 C136 240 264 240 284 130" fill="none" stroke="#8A5A2B" stroke-width="2.4"/>
+  <g stroke-width="1.4">
+    <circle cx="124" cy="156" r="10" fill="#B5533C" stroke="#8F3F2C"/>
+    <circle cx="134" cy="182" r="10" fill="#C89B3C" stroke="#A87B22"/>
+    <circle cx="152" cy="206" r="10" fill="#2F6B4F" stroke="#25543E"/>
+    <circle cx="176" cy="224" r="10" fill="#7A5C8C" stroke="#5E4570"/>
+    <circle cx="224" cy="224" r="10" fill="#B5533C" stroke="#8F3F2C"/>
+    <circle cx="248" cy="206" r="10" fill="#C89B3C" stroke="#A87B22"/>
+    <circle cx="266" cy="182" r="10" fill="#2F6B4F" stroke="#25543E"/>
+    <circle cx="276" cy="156" r="10" fill="#7A5C8C" stroke="#5E4570"/>
+  </g>
+  <g fill="#FFFFFF" opacity=".5">
+    <circle cx="121" cy="153" r="2.6"/><circle cx="149" cy="203" r="2.6"/><circle cx="245" cy="203" r="2.6"/><circle cx="273" cy="153" r="2.6"/>
+  </g>
+  <circle cx="200" cy="238" r="14" fill="#7A5C8C" stroke="#5E4570" stroke-width="1.6"/>
+  <circle cx="200" cy="238" r="5" fill="#F3EDF6"/>
+  <path d="M200 252 v14" stroke="#8A5A2B" stroke-width="2.4" stroke-linecap="round"/>
+  <g stroke="#B5533C" stroke-width="2.6" stroke-linecap="round">
+    <path d="M194 266 l-6 16"/>
+    <path d="M200 268 v18"/>
+    <path d="M206 266 l6 16"/>
+  </g>
+</svg>

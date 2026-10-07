@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Collar de filigrana momposina">
+  <rect width="400" height="400" fill="#FBF3DF"/>
+  <circle cx="200" cy="200" r="148" fill="#FFFFFF" opacity=".6"/>
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#C89B3C" stroke-opacity=".4" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="330" rx="96" ry="13" fill="#A87B22" opacity=".12"/>
+  <path d="M116 128 C138 236 262 236 284 128" fill="none" stroke="#B98A2E" stroke-width="3"/>
+  <path d="M116 128 C138 236 262 236 284 128" fill="none" stroke="#DDB65E" stroke-width="3" stroke-dasharray="1.5 7"/>
+  <g fill="#D9B36C" stroke="#B98A2E" stroke-width="1.4">
+    <circle cx="126" cy="160" r="6"/>
+    <circle cx="144" cy="196" r="6"/>
+    <circle cx="170" cy="224" r="6"/>
+    <circle cx="230" cy="224" r="6"/>
+    <circle cx="256" cy="196" r="6"/>
+    <circle cx="274" cy="160" r="6"/>
+  </g>
+  <g>
+    <circle cx="200" cy="238" r="9" fill="#B98A2E"/>
+    <circle cx="200" cy="238" r="3.4" fill="#FBF3DF"/>
+    <path d="M200 250 C172 278 172 306 200 322 C228 306 228 278 200 250 Z" fill="none" stroke="#B98A2E" stroke-width="3"/>
+    <path d="M200 262 C184 280 184 298 200 308 C216 298 216 280 200 262 Z" fill="none" stroke="#C89B3C" stroke-width="1.6"/>
+    <circle cx="200" cy="284" r="5" fill="none" stroke="#C89B3C" stroke-width="1.4"/>
+    <circle cx="200" cy="284" r="1.8" fill="#C89B3C"/>
+  </g>
+  <g fill="none" stroke="#DDB65E" stroke-width="1.8" opacity=".85">
+    <path d="M150 132 q10 -12 24 -14" stroke-linecap="round"/>
+    <path d="M250 132 q-10 -12 -24 -14" stroke-linecap="round"/>
+  </g>
+</svg>

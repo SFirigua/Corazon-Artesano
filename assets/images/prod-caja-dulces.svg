@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Caja de dulces típicos momposinos">
+  <rect width="400" height="400" fill="#FAEFE7"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#B5533C" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="326" rx="126" ry="14" fill="#B5533C" opacity=".12"/>
+  <g>
+    <circle cx="156" cy="196" r="17" fill="#FFFFFF" stroke="#D9C49A" stroke-width="1.6"/>
+    <circle cx="152" cy="192" r="3" fill="#B98A2E"/>
+    <circle cx="161" cy="200" r="2.4" fill="#8A5A2B"/>
+    <circle cx="190" cy="182" r="15" fill="#7B3F2A" stroke="#5E2E1E" stroke-width="1.6"/>
+    <rect x="180" y="176" width="20" height="4" rx="2" fill="#F3E8D2" opacity=".65"/>
+    <circle cx="222" cy="192" r="16" fill="#E3C377" stroke="#C89B3C" stroke-width="1.6"/>
+    <path d="M214 192 h16 M222 184 v16" stroke="#C89B3C" stroke-width="1.4" opacity=".7"/>
+    <circle cx="250" cy="200" r="14" fill="#FFFFFF" stroke="#D9C49A" stroke-width="1.6"/>
+    <circle cx="246" cy="196" r="2.6" fill="#B98A2E"/>
+    <rect x="176" y="214" width="28" height="18" rx="4" fill="#B5533C" stroke="#8F3F2C" stroke-width="1.6"/>
+    <rect x="212" y="218" width="26" height="16" rx="4" fill="#7B3F2A" stroke="#5E2E1E" stroke-width="1.6"/>
+    <circle cx="258" cy="222" r="12" fill="#E3C377" stroke="#C89B3C" stroke-width="1.6"/>
+    <circle cx="150" cy="224" r="12" fill="#E3C377" stroke="#C89B3C" stroke-width="1.6"/>
+  </g>
+  <g>
+    <rect x="104" y="232" width="192" height="14" rx="7" fill="#B98A2E"/>
+    <rect x="112" y="246" width="176" height="66" rx="10" fill="#8A5A2B"/>
+    <rect x="112" y="246" width="176" height="20" rx="10" fill="#A66B3A"/>
+    <rect x="112" y="258" width="176" height="10" fill="#A66B3A"/>
+    <path d="M112 268 h176" stroke="#6B4A2A" stroke-width="2" opacity=".7"/>
+    <rect x="188" y="238" width="24" height="82" fill="#C89B3C" opacity=".9"/>
+    <path d="M200 238 l12 14 -12 14 -12 -14 z" fill="#F3E8D2" opacity=".85"/>
+  </g>
+  <path d="M132 300 q68 14 136 0" fill="none" stroke="#6B4A2A" stroke-width="2" opacity=".5"/>
+  <path d="M148 104 q22 -18 44 -6" fill="none" stroke="#C89B3C" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+  <circle cx="196" cy="102" r="4" fill="#B5533C"/>
+</svg>

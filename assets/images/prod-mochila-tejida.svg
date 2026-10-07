@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Mochila tejida a mano">
+  <defs>
+    <clipPath id="bodyClip"><path d="M128 178 q0 -22 16 -30 l112 0 q16 8 16 30 l-8 118 q-2 20 -22 20 H158 q-20 0 -22 -20 Z"/></clipPath>
+  </defs>
+  <rect width="400" height="400" fill="#F6EBE0"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#A15C3E" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="322" rx="104" ry="14" fill="#A15C3E" opacity=".12"/>
+  <path d="M150 158 C150 92 250 92 250 158" fill="none" stroke="#8A5A2B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M144 168 q0 -30 22 -38 h68 q22 8 22 38 q0 10 -10 10 h-92 q-10 0 -10 -10 z" fill="#27436F"/>
+  <path d="M144 168 q0 -30 22 -38 h68 q22 8 22 38 q0 10 -10 10 h-92 q-10 0 -10 -10 z" fill="none" stroke="#1C3157" stroke-width="2"/>
+  <path d="M128 178 q0 -22 16 -30 l112 0 q16 8 16 30 l-8 118 q-2 20 -22 20 H158 q-20 0 -22 -20 Z" fill="#1C3157"/>
+  <g clip-path="url(#bodyClip)">
+    <rect x="120" y="186" width="170" height="22" fill="#C89B3C"/>
+    <rect x="120" y="222" width="170" height="10" fill="#B5533C"/>
+    <rect x="120" y="246" width="170" height="22" fill="#2F6B4F"/>
+    <rect x="120" y="282" width="170" height="10" fill="#DDB65E"/>
+  </g>
+  <path d="M128 178 q0 -22 16 -30 l112 0 q16 8 16 30 l-8 118 q-2 20 -22 20 H158 q-20 0 -22 -20 Z" fill="none" stroke="#0D1830" stroke-width="2"/>
+  <g stroke="#8A5A2B" stroke-width="2.6" stroke-linecap="round" fill="none">
+    <path d="M162 150 q10 16 4 30"/>
+    <path d="M238 150 q-10 16 -4 30"/>
+  </g>
+  <circle cx="160" cy="186" r="9" fill="#DDB65E" stroke="#B98A2E" stroke-width="1.5"/>
+  <circle cx="240" cy="186" r="9" fill="#DDB65E" stroke="#B98A2E" stroke-width="1.5"/>
+  <circle cx="160" cy="186" r="3" fill="#8A5A2B"/>
+  <circle cx="240" cy="186" r="3" fill="#8A5A2B"/>
+</svg>

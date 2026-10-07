@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi panel — Corazón Artesano</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <div class="app-main">
+    <header class="topbar" id="perfil-topbar"></header>
+    <div class="app-content" style="max-width:1100px">
+
+      <section class="artisan-hero" id="hero-artesana"></section>
+
+      <div class="kpi-grid kpi-4" id="kpis" style="margin-top:20px"></div>
+
+      <div class="tab-strip" id="tabs">
+        <button type="button" class="tab-btn active" data-tab="productos"></button>
+        <button type="button" class="tab-btn" data-tab="ventas"></button>
+        <button type="button" class="tab-btn" data-tab="perfil"></button>
+        <button type="button" class="tab-btn" data-tab="historia"></button>
+        <button type="button" class="tab-btn" data-tab="participacion"></button>
+      </div>
+
+      <section class="tab-pane active" id="pane-productos">
+        <div class="flex-between mb-16">
+          <div><h3>Mis productos</h3><p class="small muted">Estas son las piezas que tienes publicadas en la vitrina.</p></div>
+          <button type="button" class="btn btn-gold" id="btn-agregar">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+            Agregar producto
+          </button>
+        </div>
+        <div class="list-simple" id="lista-productos"></div>
+      </section>
+
+      <section class="tab-pane" id="pane-ventas">
+        <h3 class="mb-8">Mis ventas</h3>
+        <p class="small muted mb-16">Cada pedido incluye tus datos: la compradora sabrá que la pieza es tuya. El pago se coordina directamente contigo (simulado).</p>
+        <div class="summary-chips" id="resumen-ventas-artesana"></div>
+        <div id="tabla-ventas"></div>
+      </section>
+
+      <section class="tab-pane" id="pane-perfil">
+        <h3 class="mb-8">Mi perfil</h3>
+        <p class="small muted mb-16">Estos datos aparecen en la vitrina junto a tus productos.</p>
+        <div class="card" style="max-width:640px">
+          <div class="field"><label for="pf-nombre">Mi nombre</label><input type="text" id="pf-nombre"></div>
+          <div class="field"><label for="pf-telefono">Mi teléfono o WhatsApp</label><input type="tel" id="pf-telefono" placeholder="Ej.: 300 123 4567 (solo visible para la cooperativa)"></div>
+          <div class="field"><label for="pf-municipio">Municipio</label><input type="text" id="pf-municipio"></div>
+          <div class="field"><label>Mi especialidad</label><input type="text" id="pf-especialidad" disabled style="background:var(--sand)"></div>
+          <div class="field"><label>Mi estado en la cooperativa</label><div id="pf-estado"></div></div>
+          <button type="button" class="btn btn-primary" id="btn-guardar-perfil">Guardar mis datos</button>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="pane-historia">
+        <h3 class="mb-8">Mi historia</h3>
+        <p class="small muted mb-16">Cuéntale a quien compra cómo aprendiste tu oficio y qué hace especiales tus piezas. Tu historia aparece en la página de cada uno de tus productos.</p>
+        <div class="card" style="max-width:720px">
+          <div class="field"><label for="pf-bio">Mi historia como artesana</label>
+          <textarea id="pf-bio" rows="7"></textarea>
+          <span class="hint">Escribe con tus palabras: no hay respuestas correctas, solo tu historia.</span></div>
+          <button type="button" class="btn btn-primary" id="btn-guardar-bio">Guardar mi historia</button>
+        </div>
+      </section>
+
+      <section class="tab-pane" id="pane-participacion">
+        <h3 class="mb-8">Mi participación en la cooperativa</h3>
+        <p class="small muted mb-16">En Corazón Artesano cada socia cuenta: una persona, un voto.</p>
+        <div class="grid grid-2" id="participacion-grid"></div>
+      </section>
+
+      <p class="disclaimer-note" style="justify-content:flex-start;margin-top:34px">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></svg>
+        Este panel es un prototipo: los cambios se guardan solo en este navegador.
+      </p>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/perfil-artesana.js"></script>
+</body>
+</html>

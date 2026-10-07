@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Canasta momposina en palma de iraca">
+  <defs>
+    <pattern id="wv" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#DDB86E"/>
+      <path d="M0 7h14M7 0v14" stroke="#C49A4E" stroke-width="2.4" stroke-opacity=".6"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="#EDF3E8"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#2F6B4F" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="322" rx="112" ry="15" fill="#2F6B4F" opacity=".1"/>
+  <path d="M140 162 C140 92 260 92 260 162" fill="none" stroke="#8A5A2B" stroke-width="11" stroke-linecap="round"/>
+  <path d="M140 162 C140 92 260 92 260 162" fill="none" stroke="#B98A2E" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 10"/>
+  <path d="M124 176 L276 176 L256 306 q-2 12 -14 12 H158 q-12 0 -14 -12 Z" fill="url(#wv)" stroke="#B98A2E" stroke-width="2"/>
+  <path d="M124 176 L276 176 L256 306 q-2 12 -14 12 H158 q-12 0 -14 -12 Z" fill="none" stroke="#C49A4E" stroke-width="1"/>
+  <path d="M132 224 h136 M136 262 h128" stroke="#B98A2E" stroke-width="4" opacity=".55"/>
+  <path d="M246 176 L232 316 h10 q12 0 14 -12 Z" fill="#142440" opacity=".07"/>
+  <rect x="112" y="162" width="176" height="24" rx="12" fill="#B98A2E"/>
+  <rect x="112" y="162" width="176" height="10" rx="5" fill="#D9B36C"/>
+  <path d="M176 140 q24 -18 48 0 q-24 -8 -48 0" fill="#2F6B4F" opacity=".8"/>
+  <circle cx="200" cy="132" r="7" fill="#B5533C"/>
+  <circle cx="186" cy="138" r="5" fill="#C89B3C"/>
+  <circle cx="214" cy="138" r="5" fill="#C89B3C"/>
+</svg>

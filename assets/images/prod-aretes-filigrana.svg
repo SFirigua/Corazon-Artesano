@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Aretes de filigrana momposina">
+  <rect width="400" height="400" fill="#FBF3DF"/>
+  <circle cx="200" cy="200" r="148" fill="#FFFFFF" opacity=".6"/>
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#C89B3C" stroke-opacity=".4" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="330" rx="110" ry="13" fill="#A87B22" opacity=".12"/>
+  <g>
+    <path d="M138 96 q-4 -22 20 -24" fill="none" stroke="#B98A2E" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="158" cy="90" r="5" fill="#B98A2E"/>
+    <path d="M158 96 C130 122 130 158 158 178 C186 158 186 122 158 96 Z" fill="none" stroke="#B98A2E" stroke-width="3.2"/>
+    <path d="M158 112 C142 128 142 152 158 164 C174 152 174 128 158 112 Z" fill="none" stroke="#C89B3C" stroke-width="1.8"/>
+    <circle cx="158" cy="140" r="6" fill="none" stroke="#C89B3C" stroke-width="1.6"/>
+    <circle cx="158" cy="140" r="2" fill="#C89B3C"/>
+    <path d="M150 182 l8 12 8 -12" fill="none" stroke="#B98A2E" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <g>
+    <path d="M262 96 q-4 -22 20 -24" fill="none" stroke="#B98A2E" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="282" cy="90" r="5" fill="#B98A2E"/>
+    <path d="M282 96 C254 122 254 158 282 178 C310 158 310 122 282 96 Z" fill="none" stroke="#B98A2E" stroke-width="3.2"/>
+    <path d="M282 112 C266 128 266 152 282 164 C298 152 298 128 282 112 Z" fill="none" stroke="#C89B3C" stroke-width="1.8"/>
+    <circle cx="282" cy="140" r="6" fill="none" stroke="#C89B3C" stroke-width="1.6"/>
+    <circle cx="282" cy="140" r="2" fill="#C89B3C"/>
+    <path d="M274 182 l8 12 8 -12" fill="none" stroke="#B98A2E" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <path d="M200 120 q14 -18 28 -4" fill="none" stroke="#DDB65E" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+  <circle cx="232" cy="132" r="3.4" fill="#C89B3C"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Sombrero tejido en palma de iraca">
+  <defs>
+    <pattern id="wv" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#DDB86E"/>
+      <path d="M0 7h14M7 0v14" stroke="#C49A4E" stroke-width="2.4" stroke-opacity=".6"/>
+      <path d="M0 0l14 14M14 0L0 14" stroke="#EFDCA8" stroke-width="1.2" stroke-opacity=".5"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="#EDF3E8"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#2F6B4F" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="262" rx="155" ry="40" fill="#2F6B4F" opacity=".1"/>
+  <ellipse cx="200" cy="252" rx="150" ry="40" fill="url(#wv)" stroke="#B98A2E" stroke-width="2"/>
+  <ellipse cx="200" cy="252" rx="112" ry="26" fill="none" stroke="#B98A2E" stroke-width="2" opacity=".65"/>
+  <ellipse cx="200" cy="252" rx="72" ry="15" fill="none" stroke="#B98A2E" stroke-width="1.6" opacity=".5"/>
+  <path d="M132 252 C130 182 270 182 268 252 Z" fill="url(#wv)" stroke="#B98A2E" stroke-width="2"/>
+  <path d="M132 252 C130 182 270 182 268 252" fill="#FFFFFF" opacity=".06"/>
+  <path d="M126 226 h148 v20 q0 8 -10 8 h-128 q-10 0 -10 -8 z" fill="#1C3157"/>
+  <path d="M126 232 h148" stroke="#C89B3C" stroke-width="2" opacity=".8"/>
+  <path d="M200 226 l8 10 -8 10 -8 -10 z" fill="#DDB65E"/>
+  <path d="M170 190 q30 -14 60 0" fill="none" stroke="#B98A2E" stroke-width="1.6" opacity=".7"/>
+  <path d="M160 208 q40 -16 80 0" fill="none" stroke="#B98A2E" stroke-width="1.6" opacity=".55"/>
+</svg>

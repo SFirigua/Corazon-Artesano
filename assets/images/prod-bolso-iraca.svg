@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Bolso artesanal en palma de iraca">
+  <defs>
+    <pattern id="wv" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#DDB86E"/>
+      <path d="M0 7h14M7 0v14" stroke="#C49A4E" stroke-width="2.4" stroke-opacity=".6"/>
+      <path d="M0 0l14 14M14 0L0 14" stroke="#EFDCA8" stroke-width="1.2" stroke-opacity=".5"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="#EDF3E8"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#2F6B4F" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="330" rx="120" ry="16" fill="#2F6B4F" opacity=".1"/>
+  <path d="M150 152 C148 100 252 100 250 152" fill="none" stroke="#8A5A2B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M150 152 C148 100 252 100 250 152" fill="none" stroke="#B98A2E" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 10"/>
+  <rect x="118" y="142" width="164" height="22" rx="11" fill="#B98A2E"/>
+  <rect x="118" y="142" width="164" height="9" rx="4.5" fill="#D9B36C"/>
+  <path d="M126 164 h148 l-14 148 q-1 12 -13 12 h-94 q-12 0 -13 -12 z" fill="url(#wv)" stroke="#B98A2E" stroke-width="2"/>
+  <path d="M226 164 l-8 160 h47 l12 -160 z" fill="#142440" opacity=".07"/>
+  <path d="M138 214 q62 10 124 0" fill="none" stroke="#B98A2E" stroke-width="3" opacity=".7"/>
+  <circle cx="200" cy="176" r="7" fill="#142440"/>
+  <circle cx="200" cy="176" r="2.4" fill="#DDB65E"/>
+  <g stroke="#8A5A2B" stroke-width="2" stroke-linecap="round">
+    <path d="M188 288 q12 26 24 0"/>
+    <path d="M192 300 l-4 12M200 306 l0 14M208 300 l4 12"/>
+  </g>
+  <circle cx="200" cy="290" r="9" fill="#D9B36C" stroke="#B98A2E" stroke-width="1.5"/>
+</svg>

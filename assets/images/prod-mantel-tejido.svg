@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Camino de mesa tejido a mano">
+  <rect width="400" height="400" fill="#F6EBE0"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#A15C3E" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="322" rx="132" ry="14" fill="#A15C3E" opacity=".12"/>
+  <g>
+    <rect x="84" y="196" width="232" height="72" rx="10" fill="#EADFC4" stroke="#B98A2E" stroke-width="2"/>
+    <rect x="84" y="196" width="232" height="14" rx="7" fill="#F3E8D2"/>
+    <g stroke-linecap="round" stroke-width="8">
+      <path d="M136 206 v52" stroke="#A15C3E"/>
+      <path d="M164 206 v52" stroke="#2F6B4F"/>
+      <path d="M192 206 v52" stroke="#C89B3C"/>
+      <path d="M280 206 v52" stroke="#2F6B4F"/>
+    </g>
+    <g stroke="#B98A2E" stroke-width="2.4" stroke-linecap="round">
+      <path d="M84 202 l-14 -6 M84 214 l-14 -2 M84 226 l-14 2"/>
+      <path d="M316 202 l14 -6 M316 214 l14 -2 M316 226 l14 2"/>
+    </g>
+  </g>
+  <g>
+    <rect x="112" y="140" width="176" height="66" rx="10" fill="#F3E8D2" stroke="#B98A2E" stroke-width="2"/>
+    <rect x="112" y="140" width="176" height="13" rx="6.5" fill="#FFFFFF" opacity=".6"/>
+    <g stroke-linecap="round" stroke-width="7">
+      <path d="M156 150 v46" stroke="#C89B3C"/>
+      <path d="M184 150 v46" stroke="#A15C3E"/>
+      <path d="M244 150 v46" stroke="#C89B3C"/>
+    </g>
+    <g stroke="#B98A2E" stroke-width="2.2" stroke-linecap="round">
+      <path d="M112 146 l-12 -5 M112 158 l-12 -1"/>
+      <path d="M288 146 l12 -5 M288 158 l12 -1"/>
+    </g>
+  </g>
+  <circle cx="200" cy="120" r="5" fill="#C89B3C"/>
+  <path d="M168 122 q32 -16 64 0" fill="none" stroke="#A15C3E" stroke-width="2" opacity=".6" stroke-linecap="round"/>
+</svg>

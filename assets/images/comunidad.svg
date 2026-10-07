@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="Tres artesanas de Mompox trabajando juntas">
+  <defs>
+    <pattern id="weaveC" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#DDB86E"/>
+      <path d="M0 7h14M7 0v14" stroke="#C49A4E" stroke-width="2.4" stroke-opacity=".55"/>
+    </pattern>
+  </defs>
+  <path d="M60 400 V210 a200 200 0 0 1 400 0 V400 Z" fill="#F1E3C8"/>
+  <path d="M60 400 V210 a200 200 0 0 1 400 0 V400 Z" fill="none" stroke="#C89B3C" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <path d="M150 400 v-120 a45 45 0 0 1 90 0 v120 z" fill="#142440" opacity=".08"/>
+  <g>
+    <ellipse cx="180" cy="404" rx="86" ry="14" fill="#C89B3C" opacity=".18"/>
+    <path d="M132 400 q-4 -78 48 -78 q52 0 48 78 z" fill="#B5533C"/>
+    <circle cx="180" cy="286" r="30" fill="#8D5524"/>
+    <path d="M150 282 q6 -34 30 -34 q24 0 30 34 q-14 -12 -30 -12 q-16 0 -30 12 z" fill="#241A12"/>
+    <path d="M168 322 h24 v14 a12 12 0 0 1 -24 0 z" fill="#8D5524"/>
+    <circle cx="158" cy="286" r="1.8" fill="#C89B3C"/>
+    <circle cx="202" cy="286" r="1.8" fill="#C89B3C"/>
+  </g>
+  <g>
+    <ellipse cx="262" cy="404" rx="96" ry="15" fill="#C89B3C" opacity=".18"/>
+    <path d="M208 400 q-6 -88 54 -88 q60 0 54 88 z" fill="#2F6B4F"/>
+    <path d="M208 400 q-6 -88 54 -88 v88 z" fill="#25543E"/>
+    <circle cx="262" cy="272" r="33" fill="#C68642"/>
+    <path d="M228 266 q4 -36 34 -36 q30 0 34 36 q-8 -8 -18 -10 v-10 q-24 8 -50 20 z" fill="#3B2C24"/>
+    <path d="M240 300 q22 16 44 0 l-4 -18 h-36 z" fill="#3B2C24" opacity=".9"/>
+    <path d="M248 330 q14 10 28 0 l-4 -22 h-20 z" fill="#C68642"/>
+    <circle cx="238" cy="272" r="2" fill="#C89B3C"/>
+    <circle cx="286" cy="272" r="2" fill="#C89B3C"/>
+    <path d="M186 372 q-24 6 -30 30 q26 -2 42 -18 z" fill="#C68642"/>
+    <path d="M180 360 q62 -20 118 -6 l-8 26 q-56 -12 -104 4 z" fill="url(#weaveC)" stroke="#B98A2E" stroke-width="1.5"/>
+  </g>
+  <g>
+    <ellipse cx="358" cy="404" rx="86" ry="14" fill="#C89B3C" opacity=".18"/>
+    <path d="M310 400 q-4 -76 48 -76 q52 0 48 76 z" fill="#1C3157"/>
+    <circle cx="358" cy="290" r="29" fill="#A66B3A"/>
+    <path d="M330 286 q8 -40 28 -40 q20 0 28 40 q-10 -14 -28 -14 q-18 0 -28 14 z" fill="#1C1A1A"/>
+    <path d="M334 316 q24 14 48 0 l-6 -16 h-36 z" fill="#1C1A1A"/>
+    <circle cx="338" cy="290" r="1.8" fill="#C89B3C"/>
+    <circle cx="378" cy="290" r="1.8" fill="#C89B3C"/>
+    <ellipse cx="358" cy="252" rx="52" ry="7" fill="url(#weaveC)" stroke="#B98A2E"/>
+    <path d="M330 252 q-6 -22 10 -26 q16 -4 22 8 q6 -12 22 -8 q16 4 10 26 z" fill="url(#weaveC)" stroke="#B98A2E"/>
+  </g>
+  <g fill="none" stroke="#C89B3C" stroke-width="1.5" opacity=".6">
+    <path d="M76 120 q10 -18 26 -6" stroke-linecap="round"/>
+    <path d="M430 150 q-10 18 -26 6" stroke-linecap="round"/>
+    <circle cx="104" cy="110" r="3"/>
+    <circle cx="402" cy="160" r="3"/>
+  </g>
+</svg>

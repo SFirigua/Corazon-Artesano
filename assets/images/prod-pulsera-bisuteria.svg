@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Pulsera artesanal en mostacillas">
+  <rect width="400" height="400" fill="#F3EDF6"/>
+  <circle cx="200" cy="200" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#7A5C8C" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="318" rx="104" ry="14" fill="#7A5C8C" opacity=".12"/>
+  <circle cx="200" cy="206" r="82" fill="none" stroke="#DDB65E" stroke-width="4"/>
+  <g stroke-width="1.6">
+    <circle cx="200" cy="116" r="14" fill="#B5533C" stroke="#8F3F2C"/>
+    <circle cx="246" cy="126" r="13" fill="#C89B3C" stroke="#A87B22"/>
+    <circle cx="278" cy="160" r="14" fill="#2F6B4F" stroke="#25543E"/>
+    <circle cx="288" cy="206" r="13" fill="#7A5C8C" stroke="#5E4570"/>
+    <circle cx="278" cy="252" r="14" fill="#B5533C" stroke="#8F3F2C"/>
+    <circle cx="246" cy="286" r="13" fill="#C89B3C" stroke="#A87B22"/>
+    <circle cx="200" cy="296" r="14" fill="#2F6B4F" stroke="#25543E"/>
+    <circle cx="154" cy="286" r="13" fill="#7A5C8C" stroke="#5E4570"/>
+    <circle cx="122" cy="252" r="14" fill="#B5533C" stroke="#8F3F2C"/>
+    <circle cx="112" cy="206" r="13" fill="#C89B3C" stroke="#A87B22"/>
+    <circle cx="122" cy="160" r="14" fill="#2F6B4F" stroke="#25543E"/>
+    <circle cx="154" cy="126" r="13" fill="#7A5C8C" stroke="#5E4570"/>
+  </g>
+  <g fill="#FFFFFF" opacity=".55">
+    <circle cx="196" cy="111" r="3.4"/><circle cx="283" cy="156" r="3.4"/><circle cx="283" cy="256" r="3.4"/><circle cx="196" cy="301" r="3.4"/><circle cx="117" cy="256" r="3.4"/><circle cx="117" cy="156" r="3.4"/>
+  </g>
+  <circle cx="200" cy="206" r="5" fill="#8A5A2B"/>
+  <path d="M200 228 q16 10 10 26 q-8 -6 -10 -8 q-2 2 -10 8 q-6 -16 10 -26 z" fill="#C89B3C" stroke="#A87B22" stroke-width="1.4"/>
+</svg>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Las 75 artesanas — Corazón Artesano</title>
+  <meta name="description" content="Conoce a las 75 mujeres artesanas de Santa Cruz de Mompox que hacen parte de la cooperativa Corazón Artesano.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body data-nav="artesanas.html">
+  <header id="site-nav"></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container ph-inner">
+        <nav class="breadcrumbs" aria-label="Ruta de navegación">
+          <a href="index.html">Inicio</a><span class="sep">/</span><span class="current">Artesanas</span>
+        </nav>
+        <span class="eyebrow">Nuestra gente</span>
+        <h1>75 mujeres hacen parte de Corazón Artesano</h1>
+        <p>La cooperativa permite que las artesanas participen en la administración y comercialización colectiva bajo el principio de una persona, un voto. Aquí están sus historias, sus oficios y sus ventas.</p>
+        <div class="ph-stats" id="hero-stats"></div>
+      </div>
+    </section>
+
+    <section class="section-tight">
+      <div class="container">
+        <div class="admin-toolbar" style="grid-template-columns:minmax(200px,1fr) auto auto auto">
+          <div class="search-box">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <input type="search" id="buscar" placeholder="Buscar por nombre o especialidad…" aria-label="Buscar artesanas">
+          </div>
+          <select id="filtro-estado" aria-label="Filtrar por estado">
+            <option value="todos">Todos los estados</option>
+            <option value="Activa">Activas</option>
+            <option value="Nueva">Nuevas</option>
+            <option value="En proceso">En proceso</option>
+          </select>
+          <select id="ordenar" aria-label="Ordenar artesanas">
+            <option value="orden">Ordenar: orden de ingreso</option>
+            <option value="nombre">Nombre (A-Z)</option>
+            <option value="ventas">Más ventas</option>
+            <option value="productos">Más productos</option>
+            <option value="oficio">Más años de oficio</option>
+          </select>
+          <button type="button" class="btn btn-outline" id="limpiar">Limpiar</button>
+        </div>
+
+        <div class="chips-row" id="chips">
+          <button type="button" class="chip active" data-esp="todas">Todas las especialidades</button>
+          <button type="button" class="chip" data-esp="palma">Palma de iraca</button>
+          <button type="button" class="chip" data-esp="filigrana">Filigrana</button>
+          <button type="button" class="chip" data-esp="tejidos">Tejidos</button>
+          <button type="button" class="chip" data-esp="bisuteria">Bisutería</button>
+          <button type="button" class="chip" data-esp="gastronomia">Gastronomía</button>
+        </div>
+
+        <div class="results-info"><span id="contador">—</span></div>
+
+        <div class="grid grid-4" id="grid"></div>
+        <div id="vacio"></div>
+
+        <div class="load-more-wrap">
+          <button type="button" class="btn btn-outline" id="mas" style="display:none">Cargar más artesanas</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/artesanas.js"></script>
+</body>
+</html>

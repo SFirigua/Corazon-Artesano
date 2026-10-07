@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto — Corazón Artesano</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body data-nav="catalogo.html">
+  <header id="site-nav"></header>
+
+  <main>
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Ruta de navegación" id="migas">
+        <a href="index.html">Inicio</a><span class="sep">/</span>
+        <a href="catalogo.html">Catálogo</a><span class="sep">/</span>
+        <span class="current">Producto</span>
+      </nav>
+    </div>
+
+    <section class="section-tight">
+      <div class="container" id="detalle"></div>
+    </section>
+
+    <section class="section" id="seccion-artesana" style="display:none">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Conoce a la artesana</span>
+          <h2>Detrás de cada pieza hay una historia</h2>
+          <p class="lead mt-8">Corazón Artesano no solo vende productos: visibiliza el trabajo y los saberes de las mujeres que los crean.</p>
+        </div>
+        <div id="spotlight"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="seccion-relacionados" style="display:none">
+      <div class="container">
+        <div class="flex-between mb-24">
+          <div>
+            <span class="eyebrow">Sigue explorando</span>
+            <h2 id="rel-titulo">Otras piezas del catálogo</h2>
+          </div>
+          <a class="link-arrow" href="catalogo.html">Ver todo el catálogo
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M14 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+        <div class="grid-products" id="relacionados"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/producto.js"></script>
+</body>
+</html>

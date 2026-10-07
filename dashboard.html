@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — Corazón Artesano</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body data-titulo="Panel de gestión — Corazón Artesano" data-sub="Resumen general de la vitrina colectiva · datos simulados">
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar"></aside>
+    <div class="app-main">
+      <header class="topbar" id="topbar"></header>
+      <div class="app-content">
+
+        <!-- KPIs -->
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c1-3.4 3.7-5 6.5-5s5.5 1.6 6.5 5"/><circle cx="17.5" cy="9" r="3"/><path d="M16 15.2c2.8.2 4.9 1.7 5.7 4.8"/></svg></span>
+            <div><div class="kpi-value" id="kpi-artesanas">75</div><div class="kpi-label">Artesanas</div><span class="kpi-trend flat" id="kpi-artesanas-trend">—</span></div>
+          </div>
+          <div class="kpi-card gold">
+            <span class="kpi-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v9"/></svg></span>
+            <div><div class="kpi-value" id="kpi-productos">128</div><div class="kpi-label">Productos</div><span class="kpi-trend flat" id="kpi-productos-trend">—</span></div>
+          </div>
+          <div class="kpi-card navy">
+            <span class="kpi-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"/><path d="M4 8l8 4 8-4"/><path d="M12 12v10"/><path d="M8 5.5l8 4"/></svg></span>
+            <div><div class="kpi-value" id="kpi-pedidos">46</div><div class="kpi-label">Pedidos</div><span class="kpi-trend flat" id="kpi-pedidos-trend">—</span></div>
+          </div>
+          <div class="kpi-card green">
+            <span class="kpi-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10"/><path d="M15 9.5c-.5-1-1.7-1.5-3-1.5-1.6 0-3 .8-3 2s1.4 1.8 3 2 3 .9 3 2-1.4 2-3 2c-1.3 0-2.5-.5-3-1.5"/></svg></span>
+            <div><div class="kpi-value" id="kpi-ventas">$0</div><div class="kpi-label">Ventas acumuladas (COP)</div><span class="kpi-trend up" id="kpi-ventas-trend">—</span></div>
+          </div>
+          <div class="kpi-card purple">
+            <span class="kpi-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 7-8"/><path d="M14 7h6v6"/></svg></span>
+            <div><div class="kpi-value" id="kpi-vendidos-mes">32</div><div class="kpi-label">Productos vendidos este mes</div><span class="kpi-trend up" id="kpi-vendidos-trend">—</span></div>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.8 6.3.8-4.6 4.3 1.2 6.1L12 17l-5.6 3 1.2-6.1L3 9.6l6.3-.8z"/></svg></span>
+            <div><div class="kpi-value" id="kpi-artesanas-mes">12</div><div class="kpi-label">Artesanas con ventas este mes</div><span class="kpi-trend flat" id="kpi-artesanas-mes-trend">—</span></div>
+          </div>
+        </div>
+
+        <!-- Gráficos -->
+        <div class="charts-grid">
+          <div class="chart-card">
+            <div class="chart-head">
+              <div><h3>Ventas por mes</h3><p class="muted small">Ingresos directos registrados en la vitrina (COP)</p></div>
+              <div class="chart-total"><strong id="chart-mes-total">$0</strong><span id="chart-mes-label">—</span></div>
+            </div>
+            <div class="bar-chart" id="chart-meses"></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-head">
+              <div><h3>Ventas por categoría</h3><p class="muted small">Participación de cada oficio en los ingresos</p></div>
+            </div>
+            <div class="hbar-list" id="chart-categorias"></div>
+          </div>
+        </div>
+
+        <!-- Paneles inferiores -->
+        <div class="panel-grid">
+          <div class="panel">
+            <div class="panel-head">
+              <h3>Últimos pedidos</h3>
+              <a class="link-arrow" href="pedidos.html">Ver todos
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M14 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+            <div class="panel-body flush">
+              <div class="table-wrap" style="border:none">
+                <table class="data-table responsive-cards">
+                  <thead><tr><th>Pedido</th><th>Cliente</th><th>Producto</th><th>Valor</th><th>Estado</th></tr></thead>
+                  <tbody id="tabla-ultimos"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:grid;gap:18px;align-content:start">
+            <div class="panel">
+              <div class="panel-head"><h3>Top artesanas</h3></div>
+              <div class="panel-body">
+                <div class="ranking-list" id="ranking"></div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-head"><h3>Accesos rápidos</h3></div>
+              <div class="panel-body">
+                <div class="quick-actions">
+                  <a class="quick-action" href="productos.html?nuevo=1">
+                    <span class="qa-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span>
+                    Registrar un producto
+                    <svg class="icon chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                  </a>
+                  <a class="quick-action" href="pedidos.html">
+                    <span class="qa-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"/><path d="M4 8l8 4 8-4"/><path d="M12 12v10"/><path d="M8 5.5l8 4"/></svg></span>
+                    Revisar pedidos pendientes
+                    <svg class="icon chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                  </a>
+                  <a class="quick-action" href="cooperativa.html#votacion">
+                    <span class="qa-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 12l3 3 5-6"/></svg></span>
+                    Votación abierta de la asamblea
+                    <svg class="icon chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                  </a>
+                  <a class="quick-action" href="catalogo.html">
+                    <span class="qa-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10v10h16V10"/><path d="M3 10l1.5-6h15L21 10"/><path d="M9 20v-6h6v6"/></svg></span>
+                    Ver el catálogo público
+                    <svg class="icon chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

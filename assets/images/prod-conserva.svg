@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Conserva artesanal momposina">
+  <rect width="400" height="400" fill="#FAEFE7"/>
+  <circle cx="200" cy="196" r="148" fill="#FFFFFF" opacity=".55"/>
+  <circle cx="200" cy="196" r="148" fill="none" stroke="#B5533C" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <ellipse cx="200" cy="330" rx="104" ry="13" fill="#B5533C" opacity=".12"/>
+  <g>
+    <rect x="146" y="140" width="108" height="176" rx="16" fill="#FBF7EE" opacity=".75" stroke="#D9C49A" stroke-width="2"/>
+    <path d="M154 226 h92 v74 q0 8 -8 8 h-76 q-8 0 -8 -8 z" fill="#D9A13C"/>
+    <path d="M154 226 h92 v10 q0 8 -8 8 h-76 q-8 0 -8 -8 z" fill="#E3B45C"/>
+    <g fill="#B5533C" opacity=".85">
+      <circle cx="176" cy="252" r="8"/><circle cx="208" cy="264" r="9"/><circle cx="232" cy="248" r="7"/>
+      <circle cx="188" cy="286" r="8"/><circle cx="222" cy="290" r="8"/><circle cx="166" cy="272" r="6"/>
+    </g>
+    <g fill="#C89B3C" opacity=".8">
+      <circle cx="198" cy="246" r="5"/><circle cx="170" cy="296" r="5"/><circle cx="236" cy="278" r="5"/>
+    </g>
+    <rect x="146" y="140" width="108" height="176" rx="16" fill="none" stroke="#B98A2E" stroke-width="1.4" opacity=".5"/>
+    <rect x="140" y="128" width="120" height="24" rx="9" fill="#2F6B4F"/>
+    <path d="M140 134 h120" stroke="#25543E" stroke-width="2" opacity=".8"/>
+    <path d="M138 142 q62 14 124 0 l0 12 q-62 12 -124 0 z" fill="#B5533C"/>
+    <g fill="#F3E8D2" opacity=".7">
+      <circle cx="160" cy="150" r="2.4"/><circle cx="184" cy="154" r="2.4"/><circle cx="208" cy="154" r="2.4"/><circle cx="232" cy="150" r="2.4"/>
+    </g>
+  </g>
+  <path d="M200 142 q10 -22 30 -24 q-14 16 -18 28" fill="none" stroke="#B5533C" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M200 142 q-10 -22 -30 -24 q14 16 18 28" fill="none" stroke="#B5533C" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="200" cy="144" r="6" fill="#C89B3C"/>
+  <rect x="160" y="196" width="80" height="24" rx="6" fill="#FBF7EE" stroke="#D9C49A" stroke-width="1.4" opacity=".95"/>
+  <path d="M170 204 h60 M170 210 h42" stroke="#8A5A2B" stroke-width="2.4" stroke-linecap="round" opacity=".75"/>
+</svg>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impacto social — Corazón Artesano</title>
+  <meta name="description" content="Impacto económico, social y cultural de la vitrina colectiva de las 75 artesanas de Mompox.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body data-nav="impacto.html">
+  <header id="site-nav"></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container ph-inner">
+        <nav class="breadcrumbs" aria-label="Ruta de navegación">
+          <a href="index.html">Inicio</a><span class="sep">/</span><span class="current">Impacto</span>
+        </nav>
+        <span class="eyebrow">Resultados del prototipo</span>
+        <h1>Impacto económico, social y cultural</h1>
+        <p>Los indicadores se calculan en vivo con los datos simulados de la vitrina. Las proyecciones están marcadas como tal y representan el efecto esperado del modelo cooperativo.</p>
+      </div>
+    </section>
+
+    <!-- ================= DIMENSIONES ================= -->
+    <section class="section">
+      <div class="container">
+        <div class="impact-columns">
+          <div class="impact-card econ reveal">
+            <div class="ic-head">
+              <span class="ic-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10"/><path d="M15 9.5c-.5-1-1.7-1.5-3-1.5-1.6 0-3 .8-3 2s1.4 1.8 3 2 3 .9 3 2-1.4 2-3 2c-1.3 0-2.5-.5-3-1.5"/></svg></span>
+              <h3>Impacto económico</h3>
+            </div>
+            <div id="econ-rows"></div>
+          </div>
+          <div class="impact-card social reveal">
+            <div class="ic-head">
+              <span class="ic-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c1-3.4 3.7-5 6.5-5s5.5 1.6 6.5 5"/><circle cx="17.5" cy="9" r="3"/><path d="M16 15.2c2.8.2 4.9 1.7 5.7 4.8"/></svg></span>
+              <h3>Impacto social</h3>
+            </div>
+            <div id="social-rows"></div>
+          </div>
+          <div class="impact-card cultural reveal">
+            <div class="ic-head">
+              <span class="ic-ico"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.8 6.3.8-4.6 4.3 1.2 6.1L12 17l-5.6 3 1.2-6.1L3 9.6l6.3-.8z"/></svg></span>
+              <h3>Impacto cultural</h3>
+            </div>
+            <div id="cultural-rows"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GRÁFICOS ================= -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Cifras en movimiento</span>
+          <h2>El comportamiento de la vitrina</h2>
+        </div>
+        <div class="charts-grid" style="margin-top:0">
+          <div class="chart-card">
+            <div class="chart-head">
+              <div><h3>Ingresos por mes</h3><p class="muted small">Ventas directas registradas (COP)</p></div>
+              <div class="chart-total"><strong id="imp-total">$0</strong><span>acumulado</span></div>
+            </div>
+            <div class="bar-chart" id="chart-ingresos"></div>
+          </div>
+          <div class="chart-card">
+            <div class="chart-head">
+              <div><h3>Ventas por categoría</h3><p class="muted small">¿Qué oficios se venden más?</p></div>
+            </div>
+            <div class="hbar-list" id="chart-cat"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PARTICIPACIÓN ================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Participación y capacidades</span>
+          <h2>Más que ventas: organización que crece</h2>
+        </div>
+        <div class="card reveal" style="max-width:760px">
+          <div id="progreso"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ANTES / DESPUÉS ================= -->
+    <section class="section section-alt" id="antes-despues">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">De la venta individual a la fuerza colectiva</span>
+          <h2>Antes y después de la cooperativa</h2>
+        </div>
+        <div class="before-after reveal">
+          <div class="ba-panel before">
+            <span class="ba-kicker">Antes · venta individual</span>
+            <h3>La ruta de la intermediación</h3>
+            <div class="ba-flow mt-16">
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l10 18H2z"/><path d="M12 10v4"/><path d="M12 17h.01"/></svg> Venta informal, sin respaldo ni registro</span>
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M14 6l6 6-6 6"/></svg> Intermediarios que compran a bajo precio</span>
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 7-8"/><path d="M14 7h6v6"/></svg> Menor margen para la artesana</span>
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg> Alcance limitado al mercado local</span>
+            </div>
+          </div>
+          <span class="ba-arrow"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M14 6l6 6-6 6"/></svg></span>
+          <div class="ba-panel after">
+            <span class="ba-kicker">Después · vitrina cooperativa</span>
+            <h3>La ruta de la fuerza colectiva</h3>
+            <div class="ba-flow mt-16">
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c1-3.4 3.7-5 6.5-5s5.5 1.6 6.5 5"/><circle cx="17.5" cy="9" r="3"/><path d="M16 15.2c2.8.2 4.9 1.7 5.7 4.8"/></svg> Cooperativa organizada y democrática</span>
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10v10h16V10"/><path d="M3 10l1.5-6h15L21 10"/><path d="M9 20v-6h6v6"/></svg> Vitrina colectiva física y digital</span>
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4c-9 0-15 4-15 11a5 5 0 0 0 5 5c7 0 10-6 10-16z"/><path d="M4 20c3-6 7-9 12-11"/></svg> Venta directa sin intermediarios</span>
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 7-8"/><path d="M14 7h6v6"/></svg> Mayor alcance: turistas, país y exterior</span>
+              <span class="ba-step"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.6-9.2-9C1.3 8 3 5 6.3 5c2 0 3.4 1 5.7 3.5C14.3 6 15.7 5 17.7 5c3.3 0 5 3 3.5 6-2.2 4.4-9.2 9-9.2 9z"/></svg> Fortalecimiento comunitario</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-32">
+          <h3 class="text-center mb-16">¿Cuánto llega a la artesana por cada $100?</h3>
+          <div class="compare-bars">
+            <div class="compare-row">
+              <div class="cr-head"><span>Antes: venta informal con intermediarios</span><strong>$45 de $100</strong></div>
+              <div class="compare-track">
+                <i class="seg-artesana" data-w="45">45 %</i><i class="seg-otros" style="flex:1">55 % intermediarios y otros</i>
+              </div>
+            </div>
+            <div class="compare-row">
+              <div class="cr-head"><span>Ahora: venta directa desde la vitrina cooperativa</span><strong>$85 de $100</strong></div>
+              <div class="compare-track">
+                <i class="seg-artesana" data-w="85">85 %</i><i class="seg-otros" style="flex:1">15 % costos de operación</i>
+              </div>
+            </div>
+            <p class="disclaimer-note"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></svg> Estimación académica del prototipo, basada en el efecto esperado de eliminar intermediarios.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MENSAJE ================= -->
+    <section class="section">
+      <div class="container-narrow">
+        <div class="card reveal text-center" style="padding:44px 34px">
+          <span class="q-ico" style="color:var(--gold-600);display:inline-block;margin-bottom:14px"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" stroke="none" style="width:38px;height:38px"><path d="M8 7c-2.8 0-5 2.2-5 5v5h6v-6H6.5C6.6 9.6 7.3 8.6 8 8zM19 7c-2.8 0-5 2.2-5 5v5h6v-6h-2.5c.1-1.4.8-2.4 1.5-3z"/></svg></span>
+          <h2 style="margin-bottom:12px">No se trata solamente de vender artesanías</h2>
+          <p class="lead">Se trata de que las artesanas sean protagonistas de su propia comercialización. La tecnología es solo una herramienta para fortalecer la organización, la venta directa, la participación, la identidad cultural y la economía solidaria de Mompox.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/impacto.js"></script>
+</body>
+</html>
